@@ -15,12 +15,19 @@
 }
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: var(--background);
+    color: var(--text-primary);
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
 .box {
     width: 200px;
     height: 100px;
@@ -33,55 +40,45 @@
 }
 
 .primary{
-    background-color: var(--primary);
-    color: var(--text-white);
+    background-color: var(--primary);   
 }
 
 .secondary{
     background-color: var(--secondary);
-    color: var(--text-white);
 }
 
 .background{
     background-color: var(--background);
-    color: var(--text-primary);
+    color: var(--text-primary)
 }
 
 .success{
     background-color: var(--success);
-    color: var(--text-white);
 }
 
 .warning{
     background-color: var(--warning);
-    color: var(--text-white);
 }
-
 
 .error{
     background-color: var(--error);
-    color: var(--text-white);
 }
-
 
 .info{
     background-color: var(--info);
-    color: var(--text-white);
 }
 
 .text-primary{
-    background-color: var(--text-primary);
-    color: var(--text-white);
+    color: var(--text-primary);
 }
 
 .text-secondary{
-    background-color: var(--text-secondary);
-    color: var(--text-white);
+    color: var(--text-secondary);
 }
 
 .text-white{
-    background-color: var(--text-white);
-    color: var(--text-primary);
+    background-color: var(--text-primary);
+    color: var(--text-white);
 }
 
 .card-background{
